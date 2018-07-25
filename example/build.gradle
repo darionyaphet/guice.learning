@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.darion.yaphet'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.google.inject', name: 'guice', version: '4.2.0'
+    compile group: 'com.google.inject.extensions', name: 'guice-servlet', version: '4.2.0'
+}
+
